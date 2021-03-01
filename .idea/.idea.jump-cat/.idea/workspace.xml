@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05b0f8fa-a854-4732-b343-a3884f426359" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.jump-cat/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jump-cat/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.jump-cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jump-cat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +37,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Support/Hidden.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/UIManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1p6nkPgydYhuV4qo9G9olHjTW3f" />
@@ -90,7 +90,7 @@
       <workItem from="1614512563519" duration="7684000" />
       <workItem from="1614553587760" duration="1457000" />
       <workItem from="1614555146057" duration="7310000" />
-      <workItem from="1614565351918" duration="3112000" />
+      <workItem from="1614565351918" duration="3849000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1614512580615</created>
@@ -141,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614568474930</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update">
+      <created>1614569599365</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614569599365</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,8 +175,8 @@
     <MESSAGE value="add box and item" />
     <MESSAGE value="adding assets" />
     <MESSAGE value="update box" />
-    <MESSAGE value="update" />
     <MESSAGE value="max score" />
-    <option name="LAST_COMMIT_MESSAGE" value="max score" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
