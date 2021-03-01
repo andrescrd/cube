@@ -10,6 +10,7 @@ namespace Actors
     public class Box : MonoBehaviour
     {
         [SerializeField] private GameObject itemPrefab;
+        [SerializeField] private GameObject spawner;
         [SerializeField] private bool canSpawn;
         [SerializeField] private ItemType type;
 
@@ -41,7 +42,7 @@ namespace Actors
         private void SpawnItem()
         {
             if (itemPrefab)
-                Instantiate(itemPrefab, transform.position, Quaternion.identity);
+                Instantiate(itemPrefab, spawner.transform.position, Quaternion.identity);
         }
 
         private void OnTriggerEnter(Collider other)
