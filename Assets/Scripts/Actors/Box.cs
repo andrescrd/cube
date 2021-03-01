@@ -1,9 +1,7 @@
-﻿using System;
-using Enums;
+﻿using Enums;
 using Managers;
 using Support;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 namespace Actors
 {
@@ -13,13 +11,15 @@ namespace Actors
         [SerializeField] private GameObject spawner;
         [SerializeField] private bool canSpawn;
         [SerializeField] private ItemType type;
-
+        
         private float _nextSpawn;
         private GameManager _gameManager;
+        private AudioSource _audioSource;
 
         private void Start()
         {
             _gameManager = FindObjectOfType<GameManager>();
+            _audioSource = GetComponent<AudioSource>();
             
             var cubeRenderer = GetComponent<Renderer>();
             cubeRenderer.material.color = Utils.GetColor(type);
@@ -52,8 +52,10 @@ namespace Actors
                 var item = other.GetComponent<Item>();
 
                 if (type == item.GetItemType())
+                {
+                    _audioSource.Play();
                     _gameManager.AddScore();
-
+                }
                 Destroy(other.gameObject);
             }
         }

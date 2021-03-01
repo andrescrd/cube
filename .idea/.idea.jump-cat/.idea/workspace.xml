@@ -2,11 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05b0f8fa-a854-4732-b343-a3884f426359" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/cylinder.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/cylinder.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddOns.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddOns/MgLEGO Moody Tunes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddOns/MgLEGO Moody Tunes/Audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddOns/MgLEGO Moody Tunes/Audio/LEGO Behaviour Bricks.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddOns/MgLEGO Moody Tunes/Audio/LEGO Behaviour Bricks/Music - DJ Brick's Party Mix.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddOns/MgLEGO Moody Tunes/Audio/LEGO Behaviour Bricks/Music - DJ Brick's Party Mix.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Back to School.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Back to School.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CasualGameSounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-07.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-07.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CasualGameSounds/license.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CasualGameSounds/license.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Creative_Geometric_Background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Creative_Geometric_Background.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/SoundManager.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/SoundManager.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/SoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.jump-cat/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jump-cat/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.jump-cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jump-cat/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Box.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Box.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sky.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sky.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Actors/Box.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Actors/Box.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Actors/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Actors/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +48,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Actors/BoxGroup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -28,15 +59,16 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Box.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Actors/BoxGroup.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enums/ItemType.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/UIManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Support/Rotation.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Actors/Item.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Support/Utils.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Actors/Item.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/UIManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Actors/Box.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/SoundManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1p6nkPgydYhuV4qo9G9olHjTW3f" />
@@ -67,10 +99,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12064">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="12064" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -87,7 +119,8 @@
       <updated>1614512552849</updated>
       <workItem from="1614512563519" duration="7684000" />
       <workItem from="1614553587760" duration="1457000" />
-      <workItem from="1614555146057" duration="5308000" />
+      <workItem from="1614555146057" duration="7310000" />
+      <workItem from="1614565351918" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1614512580615</created>
@@ -117,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614561258223</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update box">
+      <created>1614562099232</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614562099232</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +183,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="add box and item" />
     <MESSAGE value="adding assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding assets" />
+    <MESSAGE value="update box" />
+    <option name="LAST_COMMIT_MESSAGE" value="update box" />
   </component>
 </project>

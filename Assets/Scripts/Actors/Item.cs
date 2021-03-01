@@ -7,7 +7,7 @@ namespace Actors
     public class Item : MonoBehaviour
     {
         [SerializeField] private float speed = 150;
-        [SerializeField] private ItemType type;
+        [SerializeField] private ItemType type = ItemType.Blue;
         [SerializeField] private GameObject model;
 
         private Rigidbody _rigidbody;

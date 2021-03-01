@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 namespace Managers
 {
+    [RequireComponent(typeof(Text))]
     public class UIManager : MonoBehaviour
     {
         [SerializeField] private Text scoreText;
