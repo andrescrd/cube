@@ -1,8 +1,6 @@
-﻿using System;
-using Enums;
+﻿using Enums;
 using Support;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 namespace Actors
 {
@@ -10,27 +8,33 @@ namespace Actors
     {
         [SerializeField] private float speed = 150;
         [SerializeField] private ItemType type;
-    
+        [SerializeField] private GameObject model;
+
         private Rigidbody _rigidbody;
 
         private void Start()
         {
             type = Utils.GetRandomType();
+            model.GetComponent<MeshFilter>().sharedMesh = GetRandomModel().GetComponent<MeshFilter>().sharedMesh;
 
-            var cubeRenderer = GetComponent<Renderer>();
-            cubeRenderer.material.color = Utils.GetColor(type);
-        
             _rigidbody = GetComponent<Rigidbody>();
 
             if (_rigidbody)
-            {
                 _rigidbody.AddForce(Vector3.up * speed);
-            }
+
+            var cubeRenderer = model.GetComponent<Renderer>();
+            cubeRenderer.material.color = Utils.GetColor(type);
+        }
+
+        private static GameObject GetRandomModel()
+        {
+            var models = Utils.Models;
+            return models[Random.Range(0, models.Length)];
         }
 
         public ItemType GetItemType()
         {
-            return type; 
+            return type;
         }
     }
 }

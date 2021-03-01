@@ -7,6 +7,21 @@ namespace Support
 {
     public static class Utils
     {
+        private static GameObject[] _models;
+
+        public static GameObject[] Models
+        {
+            get
+            {
+                if (_models == default || _models.Length == 0)
+                {
+                    _models = Resources.LoadAll<GameObject>("Models");
+                }
+
+                return _models;
+            }
+        }
+
         public static ItemType GetRandomType()
         {
             var values = Enum.GetValues(typeof(ItemType));
