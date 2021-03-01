@@ -18,7 +18,9 @@ namespace Managers
             _audioManager = FindObjectOfType<SoundManager>();
 
             _highest = PlayerPrefs.GetInt("highest", _highest);
-            _uiManager.UpdateMaxScore(_highest);
+            
+            if(_uiManager)
+                _uiManager.UpdateMaxScore(_highest);
         }
 
         public void AddScore()
