@@ -21,16 +21,26 @@ namespace Controllers
         {
             if (Input.GetKeyDown(KeyCode.A))
             {
-                _boxGroup.MoveToLeft();
+                MoveLeft();
             }
             else if (Input.GetKeyDown(KeyCode.D))
             {
-                _boxGroup.MoveToRight();
+                MoveToRight();
             }
             else if (Input.GetKeyDown(KeyCode.Escape))
             {
                 _gameManager.Quit();
             }
+        }
+
+        public void MoveLeft()
+        {
+            _boxGroup.MoveToLeft();
+        }
+
+        public void MoveToRight()
+        {
+            _boxGroup.MoveToRight();
         }
     }
 }

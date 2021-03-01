@@ -20,10 +20,12 @@
           </e>
           <e p="Managers" t="Include">
             <e p="GameManager.cs" t="Include" />
+            <e p="ScoreManager.cs" t="Include" />
             <e p="SoundManager.cs" t="Include" />
             <e p="UIManager.cs" t="Include" />
           </e>
           <e p="Support" t="Include">
+            <e p="Hidden.cs" t="Include" />
             <e p="Rotation.cs" t="Include" />
             <e p="Utils.cs" t="Include" />
           </e>
